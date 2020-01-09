@@ -9,6 +9,6 @@
     <string>numMacro</string>
     <string>numApop</string>
   </sourceIds>
-  <fileName>cells_b.txt</fileName>
+  <fileName>output/cells.txt</fileName>
   <addTimeStamp>false</addTimeStamp>
 </repast.simphony.data2.engine.FileSinkDescriptor>

@@ -7,6 +7,6 @@
     <string>tick</string>
     <string>MaxAntiConc</string>
   </sourceIds>
-  <fileName>anti_b.txt</fileName>
+  <fileName>output/anti.txt</fileName>
   <addTimeStamp>false</addTimeStamp>
 </repast.simphony.data2.engine.FileSinkDescriptor>

@@ -1,0 +1,12 @@
+<repast.simphony.data2.engine.FileSinkDescriptor simphonyVersion="2.5.0">
+  <name>Anti</name>
+  <dataSet>MaxAntiConc</dataSet>
+  <delimiter>,</delimiter>
+  <format>TABULAR</format>
+  <sourceIds class="linked-hash-set">
+    <string>tick</string>
+    <string>MaxAntiConc</string>
+  </sourceIds>
+  <fileName>anti_b.txt</fileName>
+  <addTimeStamp>false</addTimeStamp>
+</repast.simphony.data2.engine.FileSinkDescriptor>

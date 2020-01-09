@@ -1,0 +1,14 @@
+<repast.simphony.data2.engine.FileSinkDescriptor simphonyVersion="2.5.0">
+  <name>Cells</name>
+  <dataSet>CellCounter</dataSet>
+  <delimiter>,</delimiter>
+  <format>TABULAR</format>
+  <sourceIds class="linked-hash-set">
+    <string>tick</string>
+    <string>numNeutro</string>
+    <string>numMacro</string>
+    <string>numApop</string>
+  </sourceIds>
+  <fileName>cells_b.txt</fileName>
+  <addTimeStamp>false</addTimeStamp>
+</repast.simphony.data2.engine.FileSinkDescriptor>

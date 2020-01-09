@@ -1,0 +1,43 @@
+<repast.simphony.data2.engine.DataSetDescriptor simphonyVersion="2.5.0">
+  <name>CellCounter</name>
+  <type>AGGREGATE</type>
+  <inclTick>true</inclTick>
+  <inclBatchRun>false</inclBatchRun>
+  <inclRandomSeed>false</inclRandomSeed>
+  <scheduleParams>
+    <start>1.0</start>
+    <interval>1.0</interval>
+    <priority>-Infinity</priority>
+    <pType>LAST</pType>
+    <duration>-1.0</duration>
+    <frequency>REPEAT</frequency>
+    <hashCode>1406024989</hashCode>
+  </scheduleParams>
+  <atEnd>false</atEnd>
+  <methodDataSources class="linked-hash-map"/>
+  <countSources class="linked-hash-map">
+    <entry>
+      <string>numNeutro</string>
+      <repast.simphony.data2.engine.CountSourceDefinition>
+        <typeName>inflammatoryResponse.Neutrophil</typeName>
+        <id>numNeutro</id>
+      </repast.simphony.data2.engine.CountSourceDefinition>
+    </entry>
+    <entry>
+      <string>numMacro</string>
+      <repast.simphony.data2.engine.CountSourceDefinition>
+        <typeName>inflammatoryResponse.Macrophage</typeName>
+        <id>numMacro</id>
+      </repast.simphony.data2.engine.CountSourceDefinition>
+    </entry>
+    <entry>
+      <string>numApop</string>
+      <repast.simphony.data2.engine.CountSourceDefinition>
+        <typeName>inflammatoryResponse.Apoptotic</typeName>
+        <id>numApop</id>
+      </repast.simphony.data2.engine.CountSourceDefinition>
+    </entry>
+  </countSources>
+  <customNADataSources class="linked-hash-map"/>
+  <customAggDataSources class="linked-hash-map"/>
+</repast.simphony.data2.engine.DataSetDescriptor>

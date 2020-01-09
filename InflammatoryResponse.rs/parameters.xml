@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<parameters>
+
+		<parameter name="init_neutro" displayName="Initial Neutro Count" type="int" 
+			defaultValue="0" 
+			isReadOnly="false" 
+			converter="repast.simphony.parameter.StringConverterFactory$IntConverter"							
+		/>
+		<parameter name="init_macro" displayName="Initial Macro Count" type="int" 
+			defaultValue="0" 
+			isReadOnly="false" 
+			converter="repast.simphony.parameter.StringConverterFactory$IntConverter"							
+		/>		
+		<parameter name="init_pro" displayName="Initial Pro Conc" type="double" 
+			defaultValue="1.0" 
+			isReadOnly="false" 
+			converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"							
+		/>
+		<parameter name="init_damr" displayName="Initial Damage Radius" type="double" 
+			defaultValue="10.0" 
+			isReadOnly="false" 
+			converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"							
+		/>		
+		<parameter name="Dc" displayName="Diffusivity: Pro (Dc)" type="double" 
+			defaultValue="1.5" 
+			isReadOnly="false" 
+			converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"							
+		/>
+		<parameter name="Dg" displayName="Diffusivity: Anti (Dg)" type="double" 
+			defaultValue="1.5" 
+			isReadOnly="false" 
+			converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"						
+		/>		
+		<parameter name="decay_pro" displayName="Decay Rate: Pro" type="double" 
+			defaultValue="0.002" 
+			isReadOnly="false" 
+			converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"				
+		/>		
+		<parameter name="decay_anti" displayName="Decay Rate: Anti" type="double" 
+			defaultValue="0.002" 
+			isReadOnly="false" 
+			converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"						
+		/>		
+		<parameter name="inc_apopReleasePro" displayName="Increment: Apop Release Pro" type="double" 
+			defaultValue="1.0" 
+			isReadOnly="false" 
+			converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"					
+		/>
+		<parameter name="inc_neutroReleasePro" displayName="Increment: Neutro Release Pro" type="double" 
+			defaultValue="0.001" 
+			isReadOnly="false" 
+			converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"						
+		/>
+		<parameter name="inc_macroReleaseAnti" displayName="Increment: Macro Release Anti" type="double" 
+			defaultValue="0.001" 
+			isReadOnly="false" 
+			converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"						
+		/>
+		<parameter name="prob_neutroRecruit" displayName="Prob: Neutro Recruit" type="double" 
+			defaultValue="0.02" 
+			isReadOnly="false" 
+			converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"					
+		/>		
+		<parameter name="prob_neutroReleasePro" displayName="Prob: Neutro Release Pro" type="double" 
+			defaultValue="0.5" 
+			isReadOnly="false" 
+			converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"						
+		/>		
+		<parameter name="prob_macroRecruit" displayName="Prob: Macro Recruit" type="double" 
+			defaultValue="0.04" 
+			isReadOnly="false" 
+			converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"						
+		/>
+		<parameter name="prob_macroReleaseAnti" displayName="Prob: Macro Release Anti" type="double" 
+			defaultValue="0.8" 
+			isReadOnly="false" 
+			converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"						
+		/>		
+		<parameter name="prob_macroLeave" displayName="Prob: Macro Leave" type="double" 
+			defaultValue="0.8" 
+			isReadOnly="false" 
+			converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"					
+		/>
+		<parameter name="prob_macroPhagoApop" displayName="Prob: Macro Phagocytose Apop" type="double" 
+			defaultValue="1.0" 
+			isReadOnly="false" 
+			converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"								
+		/>		
+		<parameter name="thresh_neutroProRecruit" displayName="Threshold: Recruit Neutro Pro" type="double" 
+			defaultValue="0.05" 
+			isReadOnly="false" 
+			converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"						
+		/>
+		<parameter name="thresh_neutroAntiRecruit" displayName="Threshold: Recruit Neutro Anti" type="double" 
+			defaultValue="0.015" 
+			isReadOnly="false" 
+			converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"						
+		/>				
+		<parameter name="thresh_macroRecruit" displayName="Threshold: Recruit Macro Pro" type="double" 
+			defaultValue="0.4" 
+			isReadOnly="false" 
+			converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"						
+		/>		
+		<parameter name="thresh_macroLeave" displayName="Threshold: Macro Leave" type="double" 
+			defaultValue="0.02" 
+			isReadOnly="false" 
+			converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"
+		/>
+		<parameter name="movesPerTick_n" displayName="Moves Per Tick: Neutro" type="int" 
+			defaultValue="2" 
+			isReadOnly="false" 
+			converter="repast.simphony.parameter.StringConverterFactory$IntConverter"						
+		/>
+		<parameter name="movesPerTick_m" displayName="Moves Per Tick: Macro" type="int" 
+			defaultValue="1" 
+			isReadOnly="false" 
+			converter="repast.simphony.parameter.StringConverterFactory$IntConverter"						
+		/>
+		<parameter name="n_sigma" displayName="Chemotaxis Persistence: Neutro" type="double" 
+			defaultValue="1.0" 
+			isReadOnly="false" 
+			converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"							
+		/>
+		<parameter name="m_sigma" displayName="Chemotaxis Persistence: Macro" type="double" 
+			defaultValue="1.0" 
+			isReadOnly="false" 
+			converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"						
+		/>		
+		<parameter name="n_k_grad" displayName="Chemotaxis Gradient Coeff: Neutro" type="double" 
+			defaultValue="80.0" 
+			isReadOnly="false" 
+			converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"					
+		/>
+		<parameter name="m_k_grad" displayName="Chemotaxis Gradient Coeff: Macro" type="double" 
+			defaultValue="80.0" 
+			isReadOnly="false" 
+			converter="repast.simphony.parameter.StringConverterFactory$DoubleConverter"							
+		/>
+		<parameter name="randomSeed" displayName="Random Seed" type="int" 
+			defaultValue="__NULL__"
+			isReadOnly="false" 
+			converter="repast.simphony.parameter.StringConverterFactory$IntConverter"					
+		/>
+
+</parameters>

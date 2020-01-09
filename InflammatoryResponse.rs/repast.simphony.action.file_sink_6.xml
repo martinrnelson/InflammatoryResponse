@@ -1,0 +1,12 @@
+<repast.simphony.data2.engine.FileSinkDescriptor simphonyVersion="2.5.0">
+  <name>Pro</name>
+  <dataSet>MaxProConc</dataSet>
+  <delimiter>,</delimiter>
+  <format>TABULAR</format>
+  <sourceIds class="linked-hash-set">
+    <string>tick</string>
+    <string>MaxProConc</string>
+  </sourceIds>
+  <fileName>pro_b.txt</fileName>
+  <addTimeStamp>false</addTimeStamp>
+</repast.simphony.data2.engine.FileSinkDescriptor>

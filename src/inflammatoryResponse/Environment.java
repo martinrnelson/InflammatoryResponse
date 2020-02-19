@@ -147,7 +147,7 @@ public class Environment {
 	/**
 	 * NEUTROPHIL RECRUITMENT
 	 */
-	@ScheduledMethod(start=1,interval=1)
+	@ScheduledMethod(start=1,interval=2)
 	public void recruitNeutrophil() {
 
 		// Get the context in which the agent is residing
@@ -181,7 +181,7 @@ public class Environment {
 	/**
 	 * MACROPHAGE RECRUITMENT
 	 */
-	@ScheduledMethod(start=1,interval=1)
+	@ScheduledMethod(start=1,interval=5)
 	public void recruitMacro() {
 
 		// Get the context in which the agent is residing
